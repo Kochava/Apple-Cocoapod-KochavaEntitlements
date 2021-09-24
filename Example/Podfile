@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'Apple-Cocoapod-KochavaEntitlements_Example' do
+  pod 'Apple-Cocoapod-KochavaEntitlements', :path => '../'
+
+  target 'Apple-Cocoapod-KochavaEntitlements_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
