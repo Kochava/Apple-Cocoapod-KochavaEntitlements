@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		10EF445DFA91C7F2EFCC97E9 /* Pods-Apple-Cocoapod-KochavaEntitlements_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Apple-Cocoapod-KochavaEntitlements_Example.release.xcconfig"; path = "Target Support Files/Pods-Apple-Cocoapod-KochavaEntitlements_Example/Pods-Apple-Cocoapod-KochavaEntitlements_Example.release.xcconfig"; sourceTree = "<group>"; };
-		32C739DD281EFCDC623961D9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		32C739DD281EFCDC623961D9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		44F40269C4D9D7CE5C8D02B1 /* Pods-Apple-Cocoapod-KochavaEntitlements_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Apple-Cocoapod-KochavaEntitlements_Tests.release.xcconfig"; path = "Target Support Files/Pods-Apple-Cocoapod-KochavaEntitlements_Tests/Pods-Apple-Cocoapod-KochavaEntitlements_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5588B5E7E371802A5C1799BB /* Pods-Apple-Cocoapod-KochavaEntitlements_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Apple-Cocoapod-KochavaEntitlements_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Apple-Cocoapod-KochavaEntitlements_Tests/Pods-Apple-Cocoapod-KochavaEntitlements_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5B80D86D5EACB06E7DECCFE7 /* Pods-Apple-Cocoapod-KochavaEntitlements_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Apple-Cocoapod-KochavaEntitlements_Example.debug.xcconfig"; path = "Target Support Files/Pods-Apple-Cocoapod-KochavaEntitlements_Example/Pods-Apple-Cocoapod-KochavaEntitlements_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -44,9 +44,9 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6F3F0C0DBECBD0F9AE61B15B /* Pods_Apple_Cocoapod_KochavaEntitlements_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Apple_Cocoapod_KochavaEntitlements_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8FA563640057E152F742FD8A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8FA563640057E152F742FD8A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		8FF3FB0BF38BAFF8DB4D1C6B /* Pods_Apple_Cocoapod_KochavaEntitlements_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Apple_Cocoapod_KochavaEntitlements_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C95C9BC817D3BE3BFAF237CE /* Apple-Cocoapod-KochavaEntitlements.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "Apple-Cocoapod-KochavaEntitlements.podspec"; path = "../Apple-Cocoapod-KochavaEntitlements.podspec"; sourceTree = "<group>"; };
+		C95C9BC817D3BE3BFAF237CE /* Apple-Cocoapod-KochavaEntitlements.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "Apple-Cocoapod-KochavaEntitlements.podspec"; path = "../Apple-Cocoapod-KochavaEntitlements.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,6 @@
 				5588B5E7E371802A5C1799BB /* Pods-Apple-Cocoapod-KochavaEntitlements_Tests.debug.xcconfig */,
 				44F40269C4D9D7CE5C8D02B1 /* Pods-Apple-Cocoapod-KochavaEntitlements_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,23 +207,24 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 1300;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						DevelopmentTeam = S3Y2KVL7H7;
+						LastSwiftMigration = 1300;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1300;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
 			};
 			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "Apple-Cocoapod-KochavaEntitlements" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -291,11 +291,13 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Apple-Cocoapod-KochavaEntitlements_Example/Pods-Apple-Cocoapod-KochavaEntitlements_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Apple-Cocoapod-KochavaEntitlements/Apple_Cocoapod_KochavaEntitlements.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/KochavaCore/KochavaCore.framework/KochavaCore",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/KochavaEntitlements/KochavaEntitlements.framework/KochavaEntitlements",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Apple_Cocoapod_KochavaEntitlements.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KochavaCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KochavaEntitlements.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -378,6 +380,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -386,14 +389,17 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -419,7 +425,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -431,6 +437,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -439,14 +446,17 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -465,7 +475,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -478,13 +488,14 @@
 			baseConfigurationReference = 5B80D86D5EACB06E7DECCFE7 /* Pods-Apple-Cocoapod-KochavaEntitlements_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S3Y2KVL7H7;
 				INFOPLIST_FILE = "Apple-Cocoapod-KochavaEntitlements/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -493,13 +504,14 @@
 			baseConfigurationReference = 10EF445DFA91C7F2EFCC97E9 /* Pods-Apple-Cocoapod-KochavaEntitlements_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S3Y2KVL7H7;
 				INFOPLIST_FILE = "Apple-Cocoapod-KochavaEntitlements/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -520,7 +532,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Apple-Cocoapod-KochavaEntitlements_Example.app/Apple-Cocoapod-KochavaEntitlements_Example";
 			};
 			name = Debug;
@@ -538,7 +550,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Apple-Cocoapod-KochavaEntitlements_Example.app/Apple-Cocoapod-KochavaEntitlements_Example";
 			};
 			name = Release;

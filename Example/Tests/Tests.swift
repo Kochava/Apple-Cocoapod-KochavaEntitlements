@@ -1,5 +1,6 @@
 import XCTest
-import Apple-Cocoapod-KochavaEntitlements
+// import Apple-Cocoapod-KochavaEntitlements
+import KochavaEntitlements
 
 class Tests: XCTestCase {
     
