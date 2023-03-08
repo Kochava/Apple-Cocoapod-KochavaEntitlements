@@ -291,8 +291,8 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Apple-Cocoapod-KochavaEntitlements_Example/Pods-Apple-Cocoapod-KochavaEntitlements_Example-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/KochavaCore/KochavaCore.framework/KochavaCore",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/KochavaEntitlements/KochavaEntitlements.framework/KochavaEntitlements",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Apple-Cocoapod-KochavaCore/KochavaCore.framework/KochavaCore",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Apple-Cocoapod-KochavaEntitlements/KochavaEntitlements.framework/KochavaEntitlements",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
