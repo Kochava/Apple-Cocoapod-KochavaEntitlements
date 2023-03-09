@@ -11,7 +11,7 @@
 
 The KochavaEntitlements cocoapod is an optional module within the Kochava SDK providing management of entitlements.  This includes a high-level interface to Apple's subscriptions service.
 
-The Kochava SDK is a lightweight and easy to integrate SDK written in Objective-C, providing first-class integration with Kochava’s industry leading mobile attribution and analytics platform.
+The Kochava SDK is a lightweight and easy to integrate SDK written in Swift, providing first-class integration with Kochava’s industry leading mobile attribution and analytics platform.
 
 ## Built on
 
