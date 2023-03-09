@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
     The KochavaEntitlements module is an optional module within the Kochava SDK providing management of entitlements.  This includes a high-level interface to Apple's subscriptions service.  This includes support or compatibility for iOS, macOS, macCatalyst, tvOS, and watchOS.
     DESC
 
-    s.homepage         = 'http://www.kochava.com'
+    s.homepage         = 'https://cocoapods.org/pods/Apple-Cocoapod-KochavaEntitlements'
     s.license          = { :type => 'Commercial', :file => 'LICENSE' }
     s.author           = { 'Kochava' => 'support@kochava.com' }
     s.source           = { :git => 'https://github.com/Kochava/Apple-Cocoapod-KochavaEntitlements.git', :tag => s.version.to_s }
