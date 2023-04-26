@@ -1,9 +1,9 @@
 {
   "name": "Apple-Cocoapod-KochavaEntitlements",
-  "version": "7.0.0",
+  "version": "7.1.0",
   "summary": "The KochavaEntitlements module of the Kochava SDK for Apple iOS, macOS, macCatalyst, tvOS, and watchOS.",
   "description": "The KochavaEntitlements module is an optional module within the Kochava SDK providing management of entitlements.  This includes a high-level interface to Apple's subscriptions service.  This includes support or compatibility for iOS, macOS, macCatalyst, tvOS, and watchOS.",
-  "homepage": "http://www.kochava.com",
+  "homepage": "https://github.com/Kochava/Apple-Cocoapod-KochavaEntitlements",
   "license": {
     "type": "Commercial",
     "file": "LICENSE"
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/Kochava/Apple-Cocoapod-KochavaEntitlements.git",
-    "tag": "7.0.0"
+    "tag": "7.1.0"
   },
   "platforms": {
     "ios": "12.4",
@@ -47,7 +47,7 @@
   },
   "dependencies": {
     "Apple-Cocoapod-KochavaCore": [
-      "~> 7.0.0"
+      "~> 7.1.0"
     ]
   },
   "vendored_frameworks": "Apple-Cocoapod-KochavaEntitlements/Frameworks/KochavaEntitlements.xcframework",

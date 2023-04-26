@@ -1,7 +1,7 @@
 PODS:
-  - Apple-Cocoapod-KochavaCore (7.0.0)
-  - Apple-Cocoapod-KochavaEntitlements (7.0.0):
-    - Apple-Cocoapod-KochavaCore (~> 7.0.0)
+  - Apple-Cocoapod-KochavaCore (7.1.0)
+  - Apple-Cocoapod-KochavaEntitlements (7.1.0):
+    - Apple-Cocoapod-KochavaCore (~> 7.1.0)
 
 DEPENDENCIES:
   - Apple-Cocoapod-KochavaEntitlements (from `../`)
@@ -15,8 +15,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Apple-Cocoapod-KochavaCore: 601130788203d4451b1a4fd6f0de8b0e1c70e20e
-  Apple-Cocoapod-KochavaEntitlements: d758aebd1606a8db4d1a3f4f495d33a7f27d329a
+  Apple-Cocoapod-KochavaCore: 426115d68c20af8bcd7a34c8b4bbae955da0eaed
+  Apple-Cocoapod-KochavaEntitlements: 7ad1598b6e479223fd5f4399564f6c7152605dc7
 
 PODFILE CHECKSUM: 422d1036fe7713ca37859d6751058de1583c7e04
 
