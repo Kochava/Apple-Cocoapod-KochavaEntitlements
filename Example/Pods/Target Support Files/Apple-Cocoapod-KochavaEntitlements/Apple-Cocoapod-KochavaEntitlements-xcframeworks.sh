@@ -17,7 +17,7 @@ RSYNC_PROTECT_TMP_FILES=(--filter "P .*.??????")
 variant_for_slice()
 {
   case "$1" in
-  "KochavaEntitlements.xcframework/tvos-arm64_x86_64-simulator")
+  "KochavaEntitlements.xcframework/ios-arm64_x86_64-simulator")
     echo "simulator"
     ;;
   "KochavaEntitlements.xcframework/tvos-arm64")
@@ -26,20 +26,20 @@ variant_for_slice()
   "KochavaEntitlements.xcframework/ios-arm64")
     echo ""
     ;;
-  "KochavaEntitlements.xcframework/ios-arm64_x86_64-simulator")
+  "KochavaEntitlements.xcframework/tvos-arm64_x86_64-simulator")
     echo "simulator"
-    ;;
-  "KochavaEntitlements.xcframework/watchos-arm64_i386_x86_64-simulator")
-    echo "simulator"
-    ;;
-  "KochavaEntitlements.xcframework/watchos-arm64_arm64_32_armv7k")
-    echo ""
     ;;
   "KochavaEntitlements.xcframework/macos-arm64_x86_64")
     echo ""
     ;;
+  "KochavaEntitlements.xcframework/watchos-arm64_i386_x86_64-simulator")
+    echo "simulator"
+    ;;
   "KochavaEntitlements.xcframework/ios-arm64_x86_64-maccatalyst")
     echo "maccatalyst"
+    ;;
+  "KochavaEntitlements.xcframework/watchos-arm64_arm64_32_armv7k")
+    echo ""
     ;;
   esac
 }
@@ -47,7 +47,7 @@ variant_for_slice()
 archs_for_slice()
 {
   case "$1" in
-  "KochavaEntitlements.xcframework/tvos-arm64_x86_64-simulator")
+  "KochavaEntitlements.xcframework/ios-arm64_x86_64-simulator")
     echo "arm64 x86_64"
     ;;
   "KochavaEntitlements.xcframework/tvos-arm64")
@@ -56,20 +56,20 @@ archs_for_slice()
   "KochavaEntitlements.xcframework/ios-arm64")
     echo "arm64"
     ;;
-  "KochavaEntitlements.xcframework/ios-arm64_x86_64-simulator")
+  "KochavaEntitlements.xcframework/tvos-arm64_x86_64-simulator")
+    echo "arm64 x86_64"
+    ;;
+  "KochavaEntitlements.xcframework/macos-arm64_x86_64")
     echo "arm64 x86_64"
     ;;
   "KochavaEntitlements.xcframework/watchos-arm64_i386_x86_64-simulator")
     echo "arm64 i386 x86_64"
     ;;
-  "KochavaEntitlements.xcframework/watchos-arm64_arm64_32_armv7k")
-    echo "arm64 arm64_32 armv7k"
-    ;;
-  "KochavaEntitlements.xcframework/macos-arm64_x86_64")
-    echo "arm64 x86_64"
-    ;;
   "KochavaEntitlements.xcframework/ios-arm64_x86_64-maccatalyst")
     echo "arm64 x86_64"
+    ;;
+  "KochavaEntitlements.xcframework/watchos-arm64_arm64_32_armv7k")
+    echo "arm64 arm64_32 armv7k"
     ;;
   esac
 }
@@ -153,5 +153,5 @@ install_xcframework() {
   echo "Copied $source to $destination"
 }
 
-install_xcframework "${PODS_ROOT}/../../Apple-Cocoapod-KochavaEntitlements/Frameworks/KochavaEntitlements.xcframework" "Apple-Cocoapod-KochavaEntitlements" "framework" "ios-arm64" "ios-arm64_x86_64-simulator" "ios-arm64_x86_64-maccatalyst"
+install_xcframework "${PODS_ROOT}/../../Apple-Cocoapod-KochavaEntitlements/Frameworks/KochavaEntitlements.xcframework" "Apple-Cocoapod-KochavaEntitlements" "framework" "ios-arm64_x86_64-simulator" "ios-arm64" "ios-arm64_x86_64-maccatalyst"
 
